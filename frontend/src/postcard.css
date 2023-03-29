@@ -1,0 +1,54 @@
+*{
+    font-family: 'Lora', serif;
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-header{
+    display: flex;
+    margin: 10px;
+}
+.card-header-name{
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+}
+.card-header-place{
+    color: gray;
+}
+.card-header span{
+    margin-left: auto;
+    align-self: center;
+}
+.card-image{
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+.card-actions{
+    padding: 10px;
+}
+.card-actions span{
+    margin-right: 10px;
+    font-size: 1gpx;
+    font-weight: 400;
+}
+.card-actions span:last-child{
+     float: right;
+}
+.likes{
+    margin-left: 10px;
+    color: grey;
+    font-size: 12px;
+}
+.description{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
